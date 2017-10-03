@@ -1,0 +1,167 @@
+X: 6
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:E2BE dEBE|E2BE AFDF|E2BE dEBE|1 BABc dAFD:|2 BABc dAFA||
+|:d2fd cdec|defg afge|1 d2fd c2ec|BABc dAFA:|2 afge fdec|BABc dAFA||
+|:dBfB dBfB|cAeA cAeA|1 dBfB dBfB|defg aece:|2 defg aecA|BABc dAFA||
+|:dffe dfBf|ceed ceAe|1 dffe defg|a2ag aece:|2 af=ge fdec|BABc dAFD||
+
+X: 7
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+~E3d cABE|~E2BE FADF|~E3d cABc|1 dfec dAFD:|2 dfec dAFA||
+defe dcBd|(3cBA eA ceAc|defe dcBc|def^g aecA|
+defe dcBd|(3cBA eA ceAe|faec dcBa|^gbeg aecA||
+
+X: 9
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+"Em"E2BE E2BE| E2BE "D"AFDF| "Em"E2BE B2Bc| dedB "D"AFDF||
+"Em"EEBE dEBE| EEBE "D"AFDF| "Em"EEBE dEBE| dedB "D"AFDF||
+"Em"EEB,D EB"D"AF | "Em"GABe "D"dBAF | "Em"EEB,D EB"D"AF | "Em"GAGF EDB,D ||
+EEB,D EB"D"AF | "Em"GABe "D"dBAF | "Em"EEB,D EB"D"AF | "Em"GAGF EDB,G, ||
+"Am"A,2EA, A,2EA,| A,2EA, "G"DB,G,B,| "Am"A,2EA, E2EF| GAGE "G"DB,G,B,||
+"Am"A,A,EA, GA,EA,| A,A,EA, "G"DB,G,B,| "Am"A,A,EA, GA,EA,| DEDB, "G"DB,G,B,||
+"Am"A,A,=CE AGE=C | A,A,=CE AGE=C | A,A,=CE ABAE | =cd=cA "Em"EDCB, || 
+"Am"A,A,=CE AGE=C | A,A,=CE AGE=C | A,A,=CE AB=cd | ed=ce "Em"BAGF ||
+
+X: 10
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+d2fd cdec|defd faaf|d2fd cdec|BABc dAFA|
+d2fd cdec|defd faa2|bgaf gfed|BABc dAFD||
+
+X: 11
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+E2(BE dEBE)|E2(BE AFDF)|E2(BE dEBE)|T(BAB)^c dAFD|
+E2(BE dEBE)|E2(BE AFDF)|E2(BE dEBE)|T(BAB)^c dAFD||
+d2(fd) c2(ec)|defg afge|d2(fd) c2(ec)|T(BAB)c dAFA|
+d2(fd) c2(ec)|defg afge|afge fdec|T(BAB)c dAFD|]
+
+X: 12
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+~E2 BE dEBE | ~E2 BE AFDF | (3EGE BE dEBE | dDdB AFDF |
+~E2 BE dEBE | ~E2 BE AFDF | GFEF GABc | dcdB A2 FA |
+Be (3eee e2 eg | fd (3ddd d2 ef | g3 g g3 g | fa (3aaa afed |
+d2 (3bbb bage | fa (3aaa afed | ~B3 B BAFA | ~d3 B AFDF ||
+
+X: 13
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+"Em"E2 GE BE GE |"Em" E2 GB "D"AD FD |"Em" E2 GE BE GE |"G" BA Bc "D"dA FD |
+"Em"E2 GE BE GE |"Em" E2 GB "D"AD FD |"Em" E2 GE BE GE |"G" BA Bc "D"dA FA:|
+|:"D"d2 fd "A"c2 ec |"D" de fg "D"af "Em"ge |"D" d2 fd "A"c2 ec |"G" BA Bc "D"dA FA |
+"D"d2 fd "A"c2 ec |"D" de fg "D"af "Em"ge |"D" af"Em"ge "D"fd"Em"ec |"G" BA Bc "D"dA FD:|]
+
+X: 14
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Bmin
+||B2 fB aBfB|B2 fB ecAc|B2 fB aBfB|fefg aecA|
+B2 fB aBfB|B2 fB ecAc|B2 fB aBfB|fefg aece||
+||d2 fd c2 ec|defg afge|d2 fd c2 ec|BABc dAGA|
+d2 fd c2 ec|defg afge|afge fdec|BABc dAGA||
+
+X: 15
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|: E2BE dEBE | E2BE dAFD | E2BE dEBE | BABc dAFD |
+E~B3 E~B3 | E~B3 dAFD | E2BE dEBE | BABc dAFA :|
+|: d2fd c2ec | d2fd faaf | defd cdec | ~B3c dAFA |
+d2fd c2ec | dcde faaf | bgaf gfed | ~B3c dAFD :|
+
+X: 16
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|: E2~E2 ~E2~E2 | ~E2dB AFED | ~E2BE d~E3 | BABd BAFD |
+E2 B~E2 ~E2 | ~E2dB AFED | E2~E2 d~E3 | ~B3d BAFD :|
+|: d2fd c2ec | deg2 eaa2 | dffd cded | BABd BAFA |
+d2fd c2ec | deg2 eaa2 | afge fdeA | ~B3d BAFA :|
+
+X: 17
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:E2BE dEBE|E2BE ADFA|E2BE dEBE|BABc dDFA:|
+d2fd c2ec|defg afge|d2fd c2ec|BABc dDFA|
+d2fd c2ec|defg afge|a2fg fdec|BABc dDFA|
+
+X: 18
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:E2BE dEBE|E2BE AFDF|E2BE dEBE|BABc dAFD|
+E2BE E2 BE|E2 BE AF D2|E2BE dEBE|BABc dAFD||
+|:defd cdec|defd fa a2|defd cdec|BABc dAFA|
+defd cdec|defd fa a2|afge fdec|BABc dAFD||
+
+X: 19
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Ador
+|:A2eA gAeA|A2eA dBGB|A2eA gAeA|edef gdBG|
+A2eA A2 eA|A2 eA dB G2|A2eA gAeA|edef gdBd||
+|:GABG FGAF|GABG Bd d2|GABG FGAF|EDEF GDBd|
+GABG FGAF|GABG Bd d2|dBcA BGAF |EDEF GDBG||
+
+X: 20
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+D2| E2BE dEBE |E2dB AGFD |E2BE dEBE | BABc dAFD |
+E2BE dEcE |E2dB AGFD |E2BE dEBE | BABc dAFD |
+E2BE dEcE |E2dB AGFD |E2BE dEBE | BABc dAFD |
+E2BE dEcE |E2dB AGFD |E2BE dEBE | BABc dAFA ||
+d2fd cdec |dcde fgaf |d2fd cdec |B2Bc dAFA |
+d2fd cdec |dcde fga2 |abaf gfed |BBBc dAFA ||
+B2fB aBgB |fBaf edcA |B2fB aBgB |fBaf edcA|
+B2fB aBgB |fBaf edcA |B/c/def aecA | BBBc dAFD |]
+
+X: 21
+T: Drowsy Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|: "Em" E2 BE dEBE | E2 BE "D" AFDF | "Em" E2 BE dEBE |1"G" BABc "D" dAFD:|2 "G" BABc "D" dAFA||
+|:"D"d2 fd "A"c2 ec |"D" de fg "D"af "Em"ge |"D" d2 fd "A"c2 ec |"G" BA Bc "D"dA FA |
+"D"d2 fd "A"c2 ec |"D" de fg "D"af "Em"ge |"D" af"Em"ge "D"fd"Em"ec |"G" BA Bc "D"dA FD:|]
