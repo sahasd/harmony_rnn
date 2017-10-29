@@ -29,9 +29,9 @@ for epoch in range(epochs):
 		x,y = data.next_batch()
 		input_feed = {rnn.x: x, rnn.targets: y}
 		train_loss, state = sess.run([rnn.cost, rnn.optimizer], input_feed)
-		# following code is to check for overfitting (Make sure to switch to testing data)
-		# loss= sess.run([rnn.cost], input_feed)
-		# print ('testing loss= %s', %(loss))
+		''' following code is to check for overfitting (Make sure to switch to testing data)
+		  loss= sess.run([rnn.cost], input_feed)
+		  print ('testing loss= %s', %(loss)) '''
 		etime = time.time()
 		print('batch %s/%s, epoch %s/%s, loss = %s, time/batch = %s' %(batch+1, data.num_batches, epoch, epochs, train_loss, (etime-stime)))
 	checkpoint_path = os.path.join('saved_models', 'model.cpkt')
