@@ -19,7 +19,7 @@ class RNN():
 			self.batch_size = 1
 			self.time_steps = 1 
 
-		self.x = tf.placeholder(tf.int32, [None, self.time_steps], name='input')
+		self.x = tf.placeholder(tf.int32, [self.batch_size, self.time_steps], name='input')
 		self.targets = tf.placeholder(tf.int32, [self.batch_size, self.time_steps], name='input')
 
 		W = tf.get_variable('Weight', [self.layer_size, self.num_classes])
@@ -29,7 +29,7 @@ class RNN():
 		rnn_inputs = tf.nn.embedding_lookup(embeddings, self.x)
 
 		self.cell = tf.nn.rnn_cell.LSTMCell(self.layer_size, state_is_tuple=True)
-		self.cell = tf.nn.rnn_cell.DropoutWrapper(self.cell, input_keep_prob=0.95, output_keep_prob=0.95) #dropout to reduce overfitting
+		self.cell = tf.nn.rnn_cell.DropoutWrapper(self.cell, input_keep_prob=0.97, output_keep_prob=0.97) #dropout to reduce overfitting
 		self.cell = tf.nn.rnn_cell.MultiRNNCell([self.cell] * self.num_layers, state_is_tuple=True)
 
 		self.initial = self.cell.zero_state(self.batch_size, tf.float32)
@@ -42,19 +42,19 @@ class RNN():
 		self.distribution = tf.nn.softmax(self.logits)
 
 		self.cost = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.rnn_outputs, labels=transposed_targets))
-		self.optimizer = tf.train.AdamOptimizer(self.alpha)
+		self.optimizer = tf.train.AdamOptimizer(self.alpha).minimize(self.cost)
 
 		# gradient clipping to prevent exploding gradient issue
-		gradient_vectors = self.optimizer.compute_gradients(self.cost)
+		'''gradient_vectors = self.optimizer.compute_gradients(self.cost)
 		clipped_gradients = [(self.ClipIfNotNone(grad), var) for grad, var in gradient_vectors]
-		self.opt = self.optimizer.apply_gradients(clipped_gradients)
+		self.opt = self.optimizer.apply_gradients(clipped_gradients)'''
 
 
 	def generate_notes(self,sess, num_notes, notes_to_ind, ind_to_notes):
 	
 		state = sess.run(self.cell.zero_state(1, tf.float32))
 
-		note = 'X'
+		note = 'T'
 		music_sheet = note
 
 		for n in range(num_notes):
@@ -68,7 +68,7 @@ class RNN():
 
 		return music_sheet
 
-	def weighted_random(self,arr):
+	def weighted_random(self,arr):  #randomly select a character based on how likely it is come next
 		t = np.cumsum(arr)
 		s = np.sum(arr)
 		return(int(np.searchsorted(t, np.random.rand(1)*s)))
